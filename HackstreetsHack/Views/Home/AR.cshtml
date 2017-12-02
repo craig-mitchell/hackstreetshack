@@ -1,28 +1,25 @@
 ﻿@{
     ViewBag.Title = "My LabQuest";
 }
-<div class="ar-on">
-    <a-scene embedded arjs='trackingMethod: best;'>
-        <a-assets>
-            <a-asset-item id="optimerBoldFont" src="https://rawgit.com/mrdoob/three.js/dev/examples/fonts/optimer_bold.typeface.json"></a-asset-item>
-        </a-assets>
+<style>
+    #arjsDebugUIContainer { display: none;}
+</style>
+<a-scene embedded arjs='trackingMethod: best;'>
+    <a-assets>
+        <a-asset-item id="optimerBoldFont" src="https://rawgit.com/mrdoob/three.js/dev/examples/fonts/optimer_bold.typeface.json"></a-asset-item>
+    </a-assets>
 
-        <a-anchor hit-testing-enabled='true' onclick="EntityClick()">
-            <a-entity text-geometry="value: LabQuest" position="-2 0.5 0" material="color: #000000;"></a-entity>
-            <a-entity text-geometry="value: #su2c; font: #optimerBoldFont" position="-0.5 0 0" material="color: #ee8121;"></a-entity>
-        </a-anchor>
-        <a-camera-static />
-    </a-scene>
-</div> 
+    <a-anchor hit-testing-enabled='true'>
+        <a-entity text-geometry="value: LabQuest" position="-1 0.5 0" material="color: #000000;" onclick="EntityClick()"></a-entity>
+        <a-entity text-geometry="value: #su2c; font: #optimerBoldFont" position="-0.5 0 0" material="color: #ee8121;" ></a-entity>
+    </a-anchor>
+    <a-camera-static />
+</a-scene>
 
 <script>
-window.load = function () {
-    alert('hi');
-
-}
-
-function EntityClick() {
-    window.location = "/Home/About/";
+    function EntityClick() {
+        alert("hi");
+    window.location.href = "/Home/About/";
 }
 
 </script>
