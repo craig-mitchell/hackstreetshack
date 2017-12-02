@@ -4,11 +4,19 @@
 
 <a-scene embedded arjs='trackingMethod: best;'>
     <a-assets>
-        <a-asset-item id="man" src="~/Content/CesiumMan.gltf"></a-asset-item>
+        <a-asset-item id="optimerBoldFont" src="https://rawgit.com/mrdoob/three.js/dev/examples/fonts/optimer_bold.typeface.json"></a-asset-item>
     </a-assets>
+
     <a-anchor hit-testing-enabled='true'>
-        @*<a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>*@
-        <a-entity gltf-model="#man"></a-entity>
+        <a-entity text-geometry="value: Professor Proton" position="-2 0.5 0" material="color: #000000;" onclick="EntityClick()"></a-entity>
+        <a-entity text-geometry="value: #su2c; font: #optimerBoldFont" position="-0.5 0 0" material="color: #ee8121;" onclick="EntityClick()"></a-entity>
     </a-anchor>
     <a-camera-static />
 </a-scene>
+
+<script>
+function EntityClick() {
+    window.location = "/Home/About/";
+}
+
+</script>
