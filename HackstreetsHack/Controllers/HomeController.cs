@@ -20,9 +20,9 @@ namespace HackstreetsHack.Controllers
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult AR()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "My LabQuest";
 
             return View();
         }
