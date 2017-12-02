@@ -242,3 +242,8 @@ _Pvt_Extensions
 /src/eservicing.xml
 .vscode/launch.json
 .vscode/tasks.json
+.vs
+**/obj/*.*
+**/bin/*.*
+**/obj/**/*.*
+**/bin/**/*.*
