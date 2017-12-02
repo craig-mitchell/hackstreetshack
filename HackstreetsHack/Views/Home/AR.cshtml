@@ -1,15 +1,28 @@
 ﻿@{
     ViewBag.Title = "My LabQuest";
 }
-<div class="ar-on" style='margin : 0px; overflow: hidden;'>
+<div class="ar-on">
     <a-scene embedded arjs='trackingMethod: best;'>
-        @*<a-assets>
-                <a-asset-item id="man" src="~/Content/CesiumMan.gltf"></a-asset-item>
-            </a-assets>*@
-        <a-anchor hit-testing-enabled='true'>
-            <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>
-            @*<a-entity gltf-model="#man"></a-entity>*@
+        <a-assets>
+            <a-asset-item id="optimerBoldFont" src="https://rawgit.com/mrdoob/three.js/dev/examples/fonts/optimer_bold.typeface.json"></a-asset-item>
+        </a-assets>
+
+        <a-anchor hit-testing-enabled='true' onclick="EntityClick()">
+            <a-entity text-geometry="value: LabQuest" position="-2 0.5 0" material="color: #000000;"></a-entity>
+            <a-entity text-geometry="value: #su2c; font: #optimerBoldFont" position="-0.5 0 0" material="color: #ee8121;"></a-entity>
         </a-anchor>
         <a-camera-static />
     </a-scene>
-</div>
+</div> 
+
+<script>
+window.load = function () {
+    alert('hi');
+
+}
+
+function EntityClick() {
+    window.location = "/Home/About/";
+}
+
+</script>
