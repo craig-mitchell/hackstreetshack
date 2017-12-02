@@ -1,6 +1,7 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background: #eee;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -31,14 +32,56 @@ body {
     padding: 0 !important;
 }
 
+.background {
+    padding-top: 20px;
+    background: #ee8121;
+    margin: -20px;
+    min-height: 100vh;
+}
+
+.content-block {
+    padding: 20px;
+    background: #fff;
+    margin: 15px;
+}
+
+h1 {
+    margin: 0 0 20px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+h2.small {
+    font-size: 20px;
+}
+
+.centered {
+    text-align: center;
+}
+
 .btn {
     padding: 16px 20px;
-    border-radius: 8px;
-    background: lightGrey;
+    border-radius: 0px;
+    background: #ee8121;
     text-transform: uppercase;
     margin: 0 auto;
     text-align: center;
     width: 100%;
+    color: #fff !important;
+}
+
+.btn-black {
+    background: #000;
+    color: #fff;
+}
+
+.bar {
+    padding: 20px 0;
+    background: #fff;
+    margin: 20px -20px;
 }
 
 .center {
