@@ -68,6 +68,6 @@ C:\Data\Websites\SU2C\hsh\HackstreetsHack\bin\Microsoft.AI.DependencyCollector.x
 C:\Data\Websites\SU2C\hsh\HackstreetsHack\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Data\Websites\SU2C\hsh\HackstreetsHack\bin\Microsoft.AI.WindowsServer.xml
 C:\Data\Websites\SU2C\hsh\HackstreetsHack\bin\Microsoft.AI.Web.xml
+C:\Data\Websites\SU2C\hsh\HackstreetsHack\obj\Release\HackstreetsHack.csprojResolveAssemblyReference.cache
 C:\Data\Websites\SU2C\hsh\HackstreetsHack\obj\Release\HackstreetsHack.dll
 C:\Data\Websites\SU2C\hsh\HackstreetsHack\obj\Release\HackstreetsHack.pdb
-C:\Data\Websites\SU2C\hsh\HackstreetsHack\obj\Release\HackstreetsHack.csprojResolveAssemblyReference.cache
