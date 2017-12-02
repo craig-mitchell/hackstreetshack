@@ -26,5 +26,12 @@ namespace HackstreetsHack.Controllers
 
             return View();
         }
+
+        public ActionResult Login()
+        {
+            ViewBag.Message = "My LabQuest";
+
+            return View();
+        }
     }
 }

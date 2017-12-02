@@ -141,7 +141,6 @@ C:\Users\jamesh\Documents\James\hackathon\HackstreetsHack\bin\Microsoft.AI.Depen
 C:\Users\jamesh\Documents\James\hackathon\HackstreetsHack\bin\Microsoft.AI.ServerTelemetryChannel.xml
 C:\Users\jamesh\Documents\James\hackathon\HackstreetsHack\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\jamesh\Documents\James\hackathon\HackstreetsHack\bin\Microsoft.AI.Web.xml
-C:\Users\jamesh\Documents\James\hackathon\HackstreetsHack\obj\Debug\HackstreetsHack.csprojResolveAssemblyReference.cache
 C:\Users\jamesh\Documents\James\hackathon\HackstreetsHack\obj\Debug\HackstreetsHack.csproj.CoreCompileInputs.cache
 C:\Users\jamesh\Documents\James\hackathon\HackstreetsHack\obj\Debug\HackstreetsHack.dll
 C:\Users\jamesh\Documents\James\hackathon\HackstreetsHack\obj\Debug\HackstreetsHack.pdb
