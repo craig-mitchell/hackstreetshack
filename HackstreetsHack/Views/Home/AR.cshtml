@@ -3,8 +3,12 @@
 }
 
 <a-scene embedded arjs='trackingMethod: best;'>
+    <a-assets>
+        <a-asset-item id="man" src="~/Content/CesiumMan.gltf"></a-asset-item>
+    </a-assets>
     <a-anchor hit-testing-enabled='true'>
-        <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>
+        @*<a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>*@
+        <a-entity gltf-model="#man"></a-entity>
     </a-anchor>
     <a-camera-static />
 </a-scene>
