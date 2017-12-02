@@ -22,3 +22,35 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.container {
+    padding: 20px;
+}
+
+body {
+    padding: 0 !important;
+}
+
+.btn {
+    padding: 16px 20px;
+    border-radius: 8px;
+    background: lightGrey;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+img {
+    margin-bottom: 30px;
+    width: 100%;
+    height: auto;
+}
+
+.controls {
+    z-index: 1000;
+}

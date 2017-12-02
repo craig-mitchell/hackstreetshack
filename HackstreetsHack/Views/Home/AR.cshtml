@@ -1,25 +1,40 @@
 ﻿@{
+    Layout = "";
     ViewBag.Title = "My LabQuest";
 }
-<style>
-    #arjsDebugUIContainer { display: none;}
-</style>
-<a-scene embedded arjs='trackingMethod: best;'>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+
+    <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/examples/vendor/aframe/build/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-text-geometry-component/dist/aframe-text-geometry-component.min.js"></script>
+    <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"></script>
+    <style>
+        #arjsDebugUIContainer { display: none; }
+    </style>
+</head>
+<body style='margin : 0px; overflow: hidden;'>
+    <a-scene embedded arjs='trackingMethod: best;'>
+    
     <a-assets>
-        <a-asset-item id="optimerBoldFont" src="https://rawgit.com/mrdoob/three.js/dev/examples/fonts/optimer_bold.typeface.json"></a-asset-item>
-    </a-assets>
+                <a-asset-item id="optimerBoldFont" src="https://rawgit.com/mrdoob/three.js/dev/examples/fonts/optimer_bold.typeface.json"></a-asset-item>
+            </a-assets>
 
-    <a-anchor hit-testing-enabled='true'>
-        <a-entity text-geometry="value: LabQuest" position="-1 0.5 0" material="color: #000000;" onclick="EntityClick()"></a-entity>
-        <a-entity text-geometry="value: #su2c; font: #optimerBoldFont" position="-0.5 0 0" material="color: #ee8121;" ></a-entity>
-    </a-anchor>
-    <a-camera-static />
-</a-scene>
+            <a-anchor hit-testing-enabled='true'>
+                <a-entity text-geometry="value: LabQuest" position="-1 0.5 0" material="color: #000000;" onclick="EntityClick()"></a-entity>
+                <a-entity text-geometry="value: #su2c; font: #optimerBoldFont" position="-0.5 0 0" material="color: #ee8121;"></a-entity>
+            </a-anchor>
+            <a-camera-static />
+        </a-scene>
 
-<script>
-    function EntityClick() {
-        alert("hi");
-    window.location.href = "/Home/About/";
-}
+        <script>
+            function EntityClick() {
+                window.location.href = "/Home/About/";
+            }
 
-</script>
+        </script>
+ </body>
+</html>
