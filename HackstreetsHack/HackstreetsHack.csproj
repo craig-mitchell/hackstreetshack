@@ -159,24 +159,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="64.png" />
-    <Content Include="arcontroller.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="lib\awe-jsartoolkit-dependencies.js" />
-    <Content Include="lib\awe-loader-min.js" />
-    <Content Include="lib\awe-loader.js" />
-    <Content Include="lib\awe-standard-dependencies.js" />
-    <Content Include="lib\awe-standard-object_clicked.js" />
-    <Content Include="lib\awe-standard-window_resized.js" />
-    <Content Include="lib\awe-standard.js" />
-    <Content Include="lib\awe-v8.js" />
-    <Content Include="lib\awe.geo_ar.js" />
-    <Content Include="lib\awe.marker_ar.js" />
-    <Content Include="lib\underscore-min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
